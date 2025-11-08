@@ -15,7 +15,7 @@ Este proyecto implementa un simulador de navegación de robot en un entorno 2D u
 ## Uso
 
 1. Ejecute el programa en terminal cmd: 
- cd "C:\Users\Mari\Documents\Proyecto C"
+debe estar en la carpeta principal llamada "proyecto c" y de ahi ejecutar el siguiente comando
 .\bin\robot_simulator.exe
 
 2. El menú principal ofrece las siguientes opciones:
