@@ -30,20 +30,11 @@ mapas/                  # Mapas de prueba
 └── mapa3.txt
 ```
 
-## Compilación
-
-Para compilar el proyecto, use el siguiente comando en la terminal:
-
-```bash
-gcc src/main.c src/mapa/mapa.c src/robot/robot.c src/estructuras/cola.c src/estructuras/pila.c src/estructuras/lista.c src/utilidades/visualizacion.c -o robot_simulator
-```
-
 ## Uso
 
-1. Ejecute el programa:
-   ```bash
-   ./robot_simulator
-   ```
+1. Ejecute el programa en terminal cmd: 
+ cd "C:\Users\Mari\Documents\Proyecto C"
+.\bin\robot_simulator.exe
 
 2. El menú principal ofrece las siguientes opciones:
    - Cargar mapa desde archivo
@@ -52,6 +43,7 @@ gcc src/main.c src/mapa/mapa.c src/robot/robot.c src/estructuras/cola.c src/estr
    - Buscar ruta
    - Guardar mapa
    - Salir
+   - entro otros (primeramente pide nombre del usuario)
 
 ## Formato del Mapa
 
@@ -71,11 +63,3 @@ Ejemplo de mapa:
 ##########
 ```
 
-## Características
-
-- Navegación en entorno 2D
-- Detección de obstáculos
-- Búsqueda de ruta óptima usando BFS
-- Visualización en tiempo real
-- Carga y guardado de mapas
-- Manejo de errores robusto
