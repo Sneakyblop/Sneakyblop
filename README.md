@@ -5,29 +5,11 @@ Este proyecto implementa un simulador de navegación de robot en un entorno 2D u
 ## Estructura del Proyecto
 
 ```
-src/
-├── main.c              # Programa principal
-├── mapa/               # Módulo de gestión del mapa
-│   ├── mapa.c
-│   └── mapa.h
-├── robot/              # Módulo del robot
-│   ├── robot.c
-│   └── robot.h
-├── estructuras/        # Estructuras de datos
-│   ├── cola.c         # Implementación de cola para BFS
-│   ├── cola.h
-│   ├── pila.c         # Implementación de pila
-│   ├── pila.h
-│   ├── lista.c        # Implementación de lista enlazada
-│   └── lista.h
-└── utilidades/         # Funciones de utilidad
-    ├── visualizacion.c # Funciones de visualización
-    └── visualizacion.h
-
-mapas/                  # Mapas de prueba
-├── mapa1.txt
-├── mapa2.txt
-└── mapa3.txt
+4 carpetas principales:
+-.vscode donde dentro debe estar un archivo .json
+-bin, donde dentro debe estar el simulador del robot
+-mapas, donde dentro debe contener 5 ejemplos de mapas que el usuario puede usar
+-src, donde dentro deben haber 4 carpetas mas un archivo llamado "main.c"
 ```
 
 ## Uso
